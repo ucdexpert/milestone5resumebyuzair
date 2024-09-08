@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <h1>Milestone 5: Unique Path and Shareable Link Task 1 By Uzair</h1>                                 
+        <p>Unique Url Generation (50 Point):</p>
+        <p>Does she system genrate a unique path for each user's resume based on their user name</p>
+       <form id="resumeForm">
+        <fieldset>
+        <legend>Personal Imformation</legend>
+
+
+            <label for="username">Resume URL:</label>
+            <input type="text" name="username" id="username" required> <br>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+            
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type=" tel" name="phone" id="phone" required>
+ 
+
+<!-- profile picture -->
+ <label for="profilePicture">Profile Picture</label>
+ <input type="File" name="profilePicture" id="profilePicture" accept="image/*" required>
+ 
+
+
+
+
+
+</fieldset>
+<!-- education -->
+<fieldset>
+    <legend>Education</legend>
+    <label for="education">Education:</label>
+    <textarea name="education" id="education" rows="4" required></textarea>
+</fieldset>
+
+<fieldset>
+    <legend>Experience</legend>
+    <label for="experience">Experience:</label>
+    <textarea name="experience" id="experience" rows="4" required></textarea>
+</fieldset>
+
+<fieldset>
+    <legend>Skills</legend>
+    <label for="skills">Skills:</label>
+    <textarea name="skills" id="skills" rows="4" required></textarea>
+</fieldset>
+
+
+<fieldset>
+    <legend>Address</legend>
+    <label for="address">Address:</label>
+    <textarea name="add" id="address" rows="4" required></textarea>
+</fieldset>
+
+<button type="submit">Generate Resume Below</button>
+
+</form>
+<div id="resumeOutput">
+    <!-- Resume Will Be Genreted Below -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

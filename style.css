@@ -1,0 +1,100 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #d1ddeb;
+}
+h1{
+    text-align: center;
+    color: #0f171f;
+
+}
+
+p{
+    text-align: center;
+    justify-content: flex-start;
+    }
+    
+form{
+max-width: 600px;
+margin: auto;
+background-color: #bdadb7;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgb(0,0,0,0.5) ;
+padding: 20px;
+}
+
+
+fieldset{
+    border: 2px solid #14333e;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(141, 243, 247);
+    
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #05101b;
+    
+
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: #191d22;
+    
+
+}
+input , textarea {
+    width: calc(100%);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #05435a;
+    border-radius: 4px ;
+    box-sizing: border-box;
+
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(17, 147, 198);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
+
+}
+button:hover{
+    background-color: #6daddd;
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding:20px ;
+    border: 2px solid #0d7297;
+    background-color: rgb(231, 240, 240);;
+box-shadow: 0 4px 8px rgb(0,0,0,0.5) ;
+    
+}
+#resumeOutput{
+    color: #1e2876;
+
+}
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #0d7297;
+    box-shadow:0 4px 8px rgba(41, 40, 110, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    
+
+}
